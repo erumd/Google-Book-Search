@@ -1,8 +1,15 @@
 import React from "react";
-import Header from './header'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Image from 'react-bootstrap/Image';
+// import FigureImage from 'react-bootstrap/FigureImage'; 
+// import FigureImage from './FigureImage';
+// Figure.Image = FigureImage;
+
+
+
+
 
 export default function search () {
     return (
@@ -35,6 +42,26 @@ export default function search () {
                 <Card.Body>
                     <Card.Title>Book Title</Card.Title>
                     <Card.Subtitle> Author </Card.Subtitle>
+                    {/* <Row>
+                    <Col xs={6} md={4}>
+                        <Image src="holder.js/171x180" thumbnail />
+                    </Col>
+                    </Row> */}
+
+                {/* <Figure>
+                    <Figure.Image 
+                        src="holder.js/171px180" 
+                        width={171}
+                        height={180}
+                        alt="171x180"
+                    />
+                </Figure> */}
+
+                    
+                
+                        
+                   
+
                     <Card.Text>
                     Book Description from Google Books API 
                     </Card.Text>

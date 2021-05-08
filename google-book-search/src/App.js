@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Saved from './components/saved';
@@ -26,6 +25,7 @@ function App() {
       <Search />
 
       <Saved />
+
       
     </div>
   );
